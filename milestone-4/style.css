@@ -1,0 +1,128 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: rgb(213, 254, 240);
+    
+}
+
+
+h1 {
+    text-align: center;
+    color: rgb(40, 86, 71);
+}
+
+form {
+    margin: auto;
+    max-width: 600px;
+    background-color: rgb(214, 243, 233);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0,0.5);
+}
+
+fieldset {
+    color: rgb(69, 69, 69);
+    background-color: rgb(228, 247, 241);
+    border-radius: 20px;
+    display:c;
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+}
+input,textarea {
+    margin-top: 4px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid rgb(69, 69, 69); ;
+    width: calc(95% - 1px);
+}
+
+fieldset {
+    margin-top: 20px;
+}
+
+#button {
+    display: block;
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0,0.5);
+    color: black;
+    background-color: rgb(165, 237, 215);
+    margin-top: 20px;
+    width: 100%;
+    border: none;
+}
+
+#button:hover {
+    background-color: rgb(197, 248, 233);
+    color: rgb(61, 82, 76);
+}
+
+#resume-output {
+    margin: auto;
+    max-width: 600px;
+    background-color: rgb(249, 249, 249);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0,0.5);
+}
+
+#resume-output h2 {
+    margin-left: 40%;
+    margin-bottom: 40px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 100px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0,0.5);
+}
+
+#resume-output h3 {
+    font-size:25px;
+    border-bottom: 2px solid black;
+    border-bottom-color: rgb(127, 210, 255);
+}
+
+#resume-output p {
+    font-weight: lighter;
+    color: rgb(51, 51, 51);
+}
+
+#resume-output ul {
+    margin: 0px;
+    padding-left: 0px;
+}
+
+#resume-output ul li {
+    padding: 8px;
+    margin-left: 18px;
+    width: fit-content;
+}
+
+@media (min-width:300px) and (max-width:500px){
+    #resume-output h2 {
+        margin-left: 30%;
+        margin-bottom: 40px;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        width:100px;
+        border-radius: 12px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0,0.5);
+    }
+}
+
